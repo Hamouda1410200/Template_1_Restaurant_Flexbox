@@ -1,0 +1,574 @@
+* {
+    font-family: 'Alegreya Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-1 {
+    background-color: indianred;
+}
+
+.bg-2 {
+    background-color: royalblue;
+}
+
+.bg-3 {
+    background-color: teal;
+}
+
+.bg-4 {
+    background-color: indigo;
+}
+
+section {
+    padding: 70px;
+}
+
+.text-h2 {
+    color: #253048;
+    font-size: 2.25rem;
+    line-height: 3.125rem;
+    padding: 10px;
+}
+
+.text-dance {
+    font-family: 'Dancing Script', cursive;
+    color: #c1ab84;
+    font-size: 1.75rem;
+    font-size: 2.437rem;
+    padding: 10px;
+}
+
+.text-p {
+    color: #686868;
+    font-size: 1.125rem;
+    line-height: 2.065rem;
+    padding: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+    font-family: 'Alegreya', serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav .logo {
+    width: 50%;
+    margin-left: 100px;
+}
+
+nav .logo img {
+    width: 20%;
+}
+
+nav .menu {
+    width: 50%;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    padding: 0;
+    margin-right: 100px;
+
+}
+
+nav .menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+nav .menu ul li {
+    font-size: 1.25rem;
+    line-height: 2.0625rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav .menu ul li:hover {
+    color: #e2785d;
+}
+
+
+
+.home {
+    background-image: url(../Images/shutterstock_277750193.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home header {
+
+    text-align: center;
+
+}
+
+.home header h1 {
+    font-size: 4.75rem;
+    line-height: 5.68rem;
+    color: white;
+}
+
+.home header p {
+    font-family: 'Dancing Script', cursive;
+    color: rgba(255, 255, 255, 0.92);
+    line-height: 4.62rem;
+    font-size: 2.5rem;
+}
+
+.home header button {
+    font-size: 1rem;
+    line-height: 1.37rem;
+    font-weight: 700;
+    color: white;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.home header .btn1 {
+    background-color: #8e7754;
+}
+
+.home header .btn2 {
+    background-color: transparent;
+    border-color: white;
+}
+
+.home header button:hover {
+    background-color: white;
+    color: black;
+}
+
+.about {
+    display: flex;
+}
+
+.about figure {
+    padding: 50px;
+}
+
+.about .content {
+    padding: 80px;
+    margin-top: 40px;
+}
+
+.about .content ul li span {
+    width: 50px;
+    height: 50px;
+    background-color: #c1ab84 !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+.about .content ul li {
+    padding: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.about .content ul li span i {
+    font-size: 1.5rem;
+    line-height: 3.25rem;
+    color: white;
+
+}
+.review
+{
+    display: flex;
+    background-color: #f8f8f8;
+}
+.review .content
+{
+    width: 50%;
+    padding: 40px;
+}
+.review figure 
+{
+    width: 50%;
+    padding: 40px;
+}
+.review figure img 
+{
+    width: 100%;
+}
+.review .content ul li span {
+    width: 50px;
+    height: 50px;
+    background-color: transparent !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.review .content ul li {
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+.review .content ul li span i {
+    font-size: 1.3rem;
+    line-height: 3.25rem;
+    color: #c1ab84;
+
+}
+.fixed 
+{
+    height: 500px;
+    background-image: url(../Images/fixed\ image.jpg);
+    background-size: cover;
+    background-position: center center ; 
+    background-attachment: fixed; 
+    margin-bottom: 100px;
+}
+.fixed .layer 
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.food
+{
+    text-align: center;
+}
+.food header 
+{
+    text-align: center;
+    padding: 20px;
+}
+.items
+{
+    display:flex ;
+    flex-wrap: wrap;
+}
+.items .item 
+{
+    width: 33.3333%;
+    padding: 25px;
+    text-align: center;
+}
+.items .item h3 
+{
+    font-size: 1.3rem;
+    line-height: 1.82rem;
+    color: #253048;
+    padding: 12px;
+}
+.items .item p 
+{
+font-size: 1.125rem;
+line-height: 2.06rem;
+color: #686868;
+padding: 12px;
+}
+.items .item img 
+{
+    width: 100%;
+}
+.food .btn 
+{
+    
+    font-size: 1rem;
+    line-height: 1.37rem;
+    font-weight: 700;
+    color: white;
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    background-color: #c1ab84;
+    position: relative; 
+    display: flex;
+    align-items: center;
+   /* overflow: hidden;  */
+}
+.food .btn i 
+{
+    color: white;
+    position: absolute;
+    left: 105%;
+    transition: left 0.5s ;
+}
+.food .btn:hover i 
+{
+    left: 85%;
+}
+.food .btn span
+{
+    cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; 
+  
+}
+.food .btn span::after
+{
+    content: '\2192';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: white;
+  font-size: 1.5rem;
+}
+.food .btn:hover span {
+    padding-right: 25px;
+  }
+.food  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+    
+  }
+  .testi
+  {
+    background-image: url(../Images/shutterstock_277750193.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 100px;
+  }
+  .testi header i 
+  {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: white;
+    padding: 20px;
+  }
+.testi header h4 
+{
+    font-size: 1.87rem;
+    line-height: 2.57rem;
+    color: white;
+    padding: 25px;
+}
+.testi p 
+{
+    font-size: 1.68rem;
+    color: rgba(255, 255, 255, 0.92);
+    padding: 25px;
+}
+.testi span p 
+{
+    font-size: 1.18rem;
+    color: rgba(255, 255, 255, 0.92);
+    padding: 25px;
+}
+.testi .slider 
+{
+    display: flex;
+    justify-content: center;
+}
+.testi .slider .icon
+{
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.testi .slider .icon:hover
+{
+    background-color: white;
+    
+}
+.testi .slider .icon:hover i 
+{
+    color: black;
+}
+.testi .slider i 
+{
+    color: white;
+
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.testi .layer 
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 60px;
+}
+
+.contact {
+    
+display: flex;
+}
+
+.contact .pic {
+    width: 50%;
+    padding: 70px;
+    
+
+}
+
+.contact .pic img {
+    width: 120%;
+}
+
+.contact .caption {
+    width: 50%;
+   
+    padding: 50px;
+}
+
+.contact .caption h3 {
+    font-size: 32px;
+    line-height: 44px;
+    color: #303030;
+    padding-bottom: 10px;
+}
+
+.contact .caption p {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+}
+
+.contact .caption ul li {
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.contact .caption ul span {
+    font-size: 24px;
+    line-height: 44px;
+    background-color: #c1ab84;
+    color: #f8f8f8;
+    border: rgba(0, 0, 0, 0.15) 1px solid;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+
+}
+.ex-footer
+{
+    background-color: #403d38;
+    padding: 100px;
+    display: flex;
+}
+.ex-footer .item 
+{
+    width: 25%;
+    padding: 10px;
+
+}
+.ex-footer .item h6 
+{
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+.ex-footer .item p 
+{
+    padding: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #969696;
+}
+.ex-footer .item ul li 
+{
+    font-size: 16px;
+    line-height: 30px;
+    color: #969696;
+    padding: 5px;
+}
+.ex-footer .item ul span 
+{
+    font-size: 14px;
+    line-height: 30px;
+    color: #969696;
+}
+.cont 
+{
+    background-image: url(../Images/contact-details-map.png);
+    background-position: center center;
+    background-size: cover;
+    
+    
+}
+footer
+{
+    text-align: center;
+    background-color: #353330;
+    padding: 50px;
+}
+
+footer .icon i
+{
+    width: 40px;
+    height: 40px;
+    background-color: #484540;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8c8a86;
+    cursor: pointer; 
+}
+.icon1:hover i
+{
+    color: white;
+    background-color: #014c8c ;
+}
+.icon2:hover i
+{
+    color: white;
+    background-color: #feda75 ;
+}
+.icon3:hover i
+{
+    color: white;
+    background-color: #0275d8 ;
+}
+.icon4:hover i
+{
+    color: white;
+    background-color:#00acee ;
+}
